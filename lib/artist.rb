@@ -28,6 +28,8 @@ attr_accessor :name
 
   def self.song_count
     @@song_count
+    self.songs.uniq.length
+    binding.pry
   end
 
 
