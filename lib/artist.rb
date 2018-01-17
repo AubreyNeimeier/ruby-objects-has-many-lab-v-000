@@ -22,8 +22,7 @@ attr_accessor :name
   end
 
   def songs
-    @songs.length
-    binding.pry
+    @songs
   end
 
   def self.song_count
