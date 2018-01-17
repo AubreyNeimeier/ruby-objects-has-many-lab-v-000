@@ -24,12 +24,11 @@ attr_accessor :name
 
   def songs
     @songs
+    binding.pry
   end
 
   def self.song_count
     @@song_count
-    self.songs.uniq.length
-    binding.pry
   end
 
 
