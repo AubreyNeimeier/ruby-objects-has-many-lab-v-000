@@ -10,6 +10,7 @@ class Song
       self.artist.name
     else
       nil
+    end
     #we call the name method on the song's artist (self = song, here)
   end
 
